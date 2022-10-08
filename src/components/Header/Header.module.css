@@ -1,6 +1,44 @@
 * {
     font-family: cursive;
 }
-.WelcomeGreet p{
-    font-weight: lighter
+.Welcome {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 2rem;
+    padding: 0;
+    align-items: center;
+}
+.WelcomeGreet {
+    font-weight: normal;
+}
+.WelcomeElement {
+    display: flex;
+}
+.Paragraph {
+    margin-right: 20px;
+    font-weight: 100;
+}
+.IconBlack {
+    margin-right: 1rem;
+    font-size: 40;
+}
+.Search {
+    height: 100px;
+    background-color: rgb(86, 77, 202);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Logo {
+    display: flex;
+    align-items: center;
+    color: azure;
+    margin: 0 2rem;
+    font-size: 1.7rem;
+    font-weight: 600;
+
+}
+.IconWhite {
+    margin-right: 0.7rem;
+    color: azure;
 }
